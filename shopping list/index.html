@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        button {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Shopping List</h1>
+    <label for="item-name">Item Name:</label>
+    <input type="text" id="item-name" placeholder="Enter item">
+    
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" placeholder="Enter quantity">
+    
+    <button id="add-item">Add Item</button>
+
+    <ul id="shopping-list"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
